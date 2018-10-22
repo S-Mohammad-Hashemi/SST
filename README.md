@@ -3,6 +3,12 @@ Stochastic Substitute Training: A Gray-box Approach to Craft Adversarial Example
 
 This repository contains the code for Stochastic Substitute Training (SST) described in our paper to attack gradient obfuscation defenses in grey-box settings. We showed in 3 different Jupyter notebooks how to use SST to attack a non-robust model, a model fortified with Random Feature Nullification (RFN) and another model fortified with Thermometer Encoding. The code and hyper parameters used here are different from those we used for original experiments so the results are slightly different from those reported in the paper.
 
+You need to install git-lfs (https://git-lfs.github.com/) to be able to download the pre-trained models.
+After installing git-lfs you can just get this repo by using this command: 
+```
+git clone https://github.com/S-Mohammad-Hashemi/SST.git
+```
+Do not download the zip file from the GitHub's website directly. It doesn't download the pretrained-models.
 ## Paper
 
 **Abstract:**
