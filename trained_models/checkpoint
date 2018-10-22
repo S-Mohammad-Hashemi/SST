@@ -1,0 +1,2 @@
+model_checkpoint_path: "RFN_target_model"
+all_model_checkpoint_paths: "RFN_target_model"
