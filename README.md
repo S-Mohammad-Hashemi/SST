@@ -1,7 +1,7 @@
 # SST
 Stochastic Substitute Training: A Gray-box Approach to Craft Adversarial Examples Against Gradient Obfuscation Defenses
 
-This repository contains the code for Stochastic Substitute Training (SST) described in our paper to attack gradient obfuscation defenses in grey-box settings. We showed in 3 different Jupyter notebooks how to use SST to attack a non-robust model, a model fortified with Random Feature Nullification (RFN) and another model fortified with Thermometer Encoding. The code and hyper parameters used here are different from those we used for original experiments so the results are slightly different from those reported in the paper.
+This repository contains the code for Stochastic Substitute Training (SST) described in our paper to attack gradient obfuscation defenses in grey-box settings. We showed in 3 different Jupyter notebooks how to use SST to attack a non-robust model, a model fortified with Random Feature Nullification (RFN) and another model fortified with Thermometer Encoding. The code and hyper parameters used here are different from those we used for original experiments so the results are slightly different from those reported in the paper. You need **python 2.7** to run the notebooks.
 
 You need to install git-lfs (https://git-lfs.github.com/) to be able to download the pre-trained models.
 After installing git-lfs you can just get this repo by using this command: 
@@ -9,6 +9,13 @@ After installing git-lfs you can just get this repo by using this command:
 git clone https://github.com/S-Mohammad-Hashemi/SST.git
 ```
 Do not download the zip file from the GitHub's website directly. It doesn't download the pretrained-models.
+
+These packeges should be installed before running the notebooks in this repo:
+```
+tensorflow: (https://www.tensorflow.org/install/pip)
+keras: (https://keras.io/#installation)
+cleverhans: (https://github.com/tensorflow/cleverhans)
+```
 ## Paper
 
 **Abstract:**
